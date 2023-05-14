@@ -1,5 +1,4 @@
-﻿
-#include "FloydWarshallAlgorithm.h"
+﻿#include "FloydWarshallAlgorithm.h"
 
 using namespace std;
 bool checkArraysEqualing(int** arr, int** arr2, int row, int col)
@@ -132,6 +131,7 @@ void floydWarshallAlgorithm(int ** arr,int row, int col)
 
 int main()
 {
+	cout << "made by TE (aka Evgenii)\nFloyd-Warshall Algorithm\n\n";
 	int row, col;
 	cout << "Enter Rows: ";
 	cin >> row;
